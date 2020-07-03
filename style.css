@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, whitesmoke, wheat) repeat-x;
+    font: normal small Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    color: #00060a;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #468259;
+}
+
+h2 {
+    padding-left: 20px;
+    background: linear-gradient(to right, rgb(97, 97, 138), wheat);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#header {
+    width: 754px;
+    height: 247px;
+    margin: 0 auto;
+    padding: 13px 0 0 0;
+}
+
+#header h1 {
+    float: left;
+    width: 104px;
+    height: 110px;
+    padding: 104px 100px 0 20px;
+    background: linear-gradient(to right, lightgrey, lightpink);
+    line-height: 32px;
+    font-size: 30px;
+}
+
+#header h1:hover {
+    color: black;
+}
+
+#header h2 {
+    float: right;
+    width: 494px;
+    height: 34px;
+    padding: 180px 20px 0 0;
+    background-image: url(https://obs.line-scdn.net/0m0e3880cb1b6d0130606e75117876342a6b65663927407b1b137b3d3929293e626a333c6673303c5e3d7a303b3c/w644);
+    text-align: right;
+    letter-spacing: -1px;
+    font-size: 22px;
+    color: white;
+    text-shadow: black;
+}
+
+#header h2:hover {
+    color: rgb(112, 41, 65);
+}
+
+footer {
+    padding: 40px 0 60px 0;
+    background: linear-gradient(antiquewhite, lightblue);
+}
+
+footer p {
+    width: 750px;
+    font-family: 'Yellowtail', cursive;
+    color: darkslategray;
+    font-size: 40px;
+}
+
+footer a {
+    background: none;
+    font-weight: bold;
+    color: #A6C09B;
+}
+
+#quote {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+#instagram {
+    margin: -35px auto 0 auto;
+    padding: 10px 0 0 35px;
+    background: radial-gradient(to right, lightgrey, lightpink) no-repeat left top;
+    letter-spacing: -1px;
+    font-size: 24px;
+    cursor: pointer;
+    color: plum;
+    font-family: 'Pangolin', cursive;
+}
+
+#instagram:hover {
+    color: darkgreen;
+    align-items: center;
+    text-decoration: darkseagreen;
+    text-align: center;
+}
+
+.main {
+    background: linear-gradient(to right, white, lightblue);
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#sport {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 200px;
+    width: 200px;
+}
+
+#music {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 200px;
+    width: 200px;
+}
+
+#click {
+    color: rgb(86, 150, 202);
+    font-size: 25px;
+    font-family: 'Pangolin', cursive;
+}
